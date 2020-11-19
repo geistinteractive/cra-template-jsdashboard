@@ -77,7 +77,7 @@ window.loadData = function (json) {
     })
     .elasticX(true)
     .elasticY(true)
-    .ordinalColors(["#001EBA", "#05147D", "#35459E", "#003B74", "#0B42FF"]);
+    .ordinalColors(d3.schemeOranges[7]);
 
   dc.renderAll();
 };
